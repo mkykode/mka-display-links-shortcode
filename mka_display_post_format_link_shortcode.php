@@ -51,7 +51,7 @@ if ( ! function_exists( 'mka_display_post_format_link_shortcode' ) ) {
 					echo '<a href="' . esc_url( $links[1][0] ) . '" target="_blank">';
 					the_title();
 					echo '</li>';
-					echo '</a>';bnote
+					echo '</a>';
 
 				}
 				echo '</ul>';
